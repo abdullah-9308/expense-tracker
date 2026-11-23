@@ -696,3 +696,26 @@ select {
     padding: 12px;
   }
 }
+/* Light Mode Text Visibility Fix */
+.dashboard:not(.dark-mode) h1,
+.dashboard:not(.dark-mode) h2,
+.dashboard:not(.dark-mode) h3,
+.dashboard:not(.dark-mode) p,
+.dashboard:not(.dark-mode) label {
+  color: #263244;
+}
+
+.dashboard:not(.dark-mode) .stat-card h2,
+.dashboard:not(.dark-mode) .stat-card .amount {
+  color: #172033;
+}
+
+.dashboard:not(.dark-mode) input,
+.dashboard:not(.dark-mode) select {
+  color: #263244;
+  background: #ffffff;
+}
+
+.dashboard:not(.dark-mode) input::placeholder {
+  color: #788395;
+}
